@@ -488,6 +488,10 @@ header {
 .buy-now-btn {
   padding: 6px 12px;
   border-radius: 5px;
+  outline: none;
+  border: none;
+  background: red;
+  color: white;
 }
 
 .rate i {
@@ -510,6 +514,8 @@ header {
   color: white;
   border-radius: 10px;
   margin-block: 20px;
+   outline: none;
+  border: none;
 }
 
 /* section 3 */
@@ -619,4 +625,5 @@ header {
   border: none;
   border-radius: 20px;
   margin-top: 20px;
+
 }
