@@ -1,0 +1,163 @@
+@media (max-width: 1122px) {
+ .flash-sell,.all-service{
+    padding-inline: 30px;
+  }
+  .heading-of-today{
+    padding-inline: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .front-page {
+    flex-direction: column;
+    height: auto;
+  }
+  .catagories {
+    width: 100%;
+    overflow: hidden;
+  }
+  .catagories::-webkit-scrollbar {
+    display: none;
+  }
+  .cat-box1 {
+    align-items: center;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    padding: 12px 16px;
+    scrollbar-width: none;
+    justify-content: flex-start;
+  }
+  .cat-box1 a {
+    font-size: 14px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+  }
+  .exclusive-brand {
+    width: 100%;
+  }
+  .navigator {
+    margin-bottom: 10px;
+  }
+ 
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .top {
+    width: 100%;
+  }
+  .main-top {
+    padding-inline: 40px;
+    width: auto;
+    gap: 24px;
+  }
+  .front-page {
+    width: 100%;
+  }
+
+  .slider {
+    height: auto;
+    width: 90%;
+  }
+
+  .box1 {
+    flex-direction: column;
+    height: auto;
+  }
+  .box1-offer-info {
+    padding-block: 30px;
+    justify-items: center;
+    padding-left: 0;
+  }
+  .box1-offer-info h1 {
+    font-size: 30px;
+  }
+   .flash-sell{
+    padding-inline: 10px;
+  }
+  .all-service{
+    padding-inline: 20px;
+  }
+  .heading-of-today{
+    padding-inline: 15px;
+  }
+  .flash-card-slider{
+    justify-content: space-around;
+    row-gap: 20px;
+  }
+  .flash-sell-timer #flash-sale,.all-service h1{
+    font-size: 24px;
+  }
+  .dhms-couter p{
+    font-size: 14px;
+  }
+  .timer #time{
+    font-size: 20px;
+
+  }
+}
+@media (max-width: 700px) {
+  header {
+    width: 100%;
+  }
+  .main-top {
+    padding-inline: 40px;
+    width: auto;
+  }
+  .top {
+    width: 100%;
+  }
+}
+@media (max-width:662px) {
+  .flash-sell-timer{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+@media (max-width: 624px) {
+  .offer-information {
+    flex-wrap: wrap;
+  }
+  .left-header {
+    justify-content: end;
+  }
+  .search {
+    display: none;
+  }
+  .search1 {
+    display: block;
+  }
+  .product-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 528px) {
+  .top {
+    height: auto;
+  }
+  .offer-information p {
+    text-align: center;
+    font-size: 12px;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .navigate {
+    width: 100%;
+    height: 80%;
+    right: 0;
+  }
+}
+@media (max-width: 354px) {
+  .box1-offer-info h1 {
+    font-size: 25px;
+  }
+  .cmplogo p {
+    font-size: 16px;
+  }
+}
